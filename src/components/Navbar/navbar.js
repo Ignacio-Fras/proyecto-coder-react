@@ -1,6 +1,7 @@
 import "./Navbar.css";
+import { CartWidget } from '../CartWidget/CartWidget.js';
 
-export const Navbar = ({children}) => {
+export const Navbar = () => {
   return (
     <header>
       <nav className="nav">
@@ -19,7 +20,7 @@ export const Navbar = ({children}) => {
             <li>
               <a href="#">Sponsors</a>
             </li>
-            {children}
+            <CartWidget/>
           </ul>
         </div>
       </nav>

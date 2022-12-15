@@ -7,9 +7,7 @@ import { ItemListContainer } from './components/ItemListContainer/ItemListContai
 function App() {
   return (
     <div>
-      <Navbar>
-        <CartWidget/>
-      </Navbar>
+      <Navbar/>
       <ItemListContainer greeting="Bienvenidos a Pegasus Gaming!" />
       <Footer />
     </div>
