@@ -1,0 +1,10 @@
+.footer{
+    background-color: rgb(93, 133, 241);
+    padding: 1rem;
+    color: white;
+}
+.footer li{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}

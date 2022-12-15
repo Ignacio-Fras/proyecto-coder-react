@@ -1,0 +1,6 @@
+.titulo{
+    background-color: rgb(169, 230, 221);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
