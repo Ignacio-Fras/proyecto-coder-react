@@ -20,7 +20,12 @@
 .lista a{
     text-decoration: none;
     color: white;
-    padding: 2rem;
+    padding: 1rem;
     margin: 1rem;
 
+}
+.BtnNav:hover{
+    background-color: rgb(28, 59, 233);
+    padding: 2px;
+    border-radius: 10px;
 }

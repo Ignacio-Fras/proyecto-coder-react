@@ -8,16 +8,16 @@ export const Navbar = () => {
       <h1 className="#">PEGASUS GAMING</h1>
         <div>
           <ul className="lista">
-            <li>
-              <a href="#">Inicio</a>
+            <li className="BtnNav">
+              <a  href="#">Inicio</a>
             </li>
-            <li>
+            <li className="BtnNav">
               <a href="#">Productos</a>
             </li>
-            <li>
+            <li className="BtnNav">
               <a href="#">Preguntas Frecuentes</a>
             </li>
-            <li>
+            <li className="BtnNav">
               <a href="#">Sponsors</a>
             </li>
             <CartWidget/>
