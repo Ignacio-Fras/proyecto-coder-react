@@ -1,0 +1,26 @@
+.caja{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding:4rem;
+}
+.nombre{
+    background-color: rgb(93, 133, 241);
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+.Btn{
+    color: white;
+    background-color: rgb(93, 133, 241);
+    text-decoration: none;
+    padding: 5px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 10px;
+}
+.Btn:hover{
+    background-color: rgb(152, 166, 245);
+    padding-left: 120px;
+    padding-right: 120px;
+}

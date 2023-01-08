@@ -2,9 +2,16 @@
     background-color: rgb(93, 133, 241);
     padding: 1rem;
     color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 .footer li{
     list-style: none;
     display: flex;
     justify-content: center;
+}
+.textFooter{
+    color: white;
+    text-decoration: none;
 }

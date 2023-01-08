@@ -1,12 +1,19 @@
 import './footer.css'
+import { Link } from 'react-router-dom'
 
 export const Footer = () =>{
     
     return(
-        <ul className="footer">
-            <li>Facebook</li>
-            <li>Twitter</li>
-            <li>Instagram</li>
-        </ul>
+        <div className="footer">
+            <li>
+                <Link to="/" className="textFooter">Facebook</Link>
+            </li>
+            <li>
+                <Link to="/" className="textFooter">Twitter</Link>
+            </li>
+            <li>
+                <Link to="/" className="textFooter">Instagram</Link>
+            </li>
+        </div>
     )
 }

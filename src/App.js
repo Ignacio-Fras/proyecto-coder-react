@@ -1,16 +1,26 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Navbar } from './components/Navbar/navbar';
 import { Footer } from './components/Footer/footer';
-import { CartWidget } from "./components/CartWidget/CartWidget";
-import { ItemListContainer } from './components/ItemListContainer/ItemListContainer';
+import { Productos } from './components/Productos/Productos';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import DetallesItem from './components/DetallesItem/DetallesItem';
+import Carrousel from './components/Carrousel/Carrousel';
+import { PaginaInicio } from './components/body/paginaInicio';
+
 
 function App() {
   return (
-    <div>
-      <Navbar/>
-      <ItemListContainer greeting="Bienvenidos a Pegasus Gaming!" />
-      <Footer />
-    </div>
+    <BrowserRouter>
+        <Navbar/>
+        <Routes>
+          <Route path="/" element={<PaginaInicio/>}> </Route>
+          <Route path="/Productos" element={<Productos/>}></Route>
+          <Route path="/Productos/:categoryId" element={<Productos/>}> </Route>
+          <Route path="/detail/:itemId" element={<DetallesItem/>}></Route>
+        </Routes>
+        
+        <Footer />
+    </BrowserRouter>
   );
 }
 

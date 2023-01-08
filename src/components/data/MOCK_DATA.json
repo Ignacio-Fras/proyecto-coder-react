@@ -1,0 +1,220 @@
+[
+  {
+    "id": 1,
+    "name": "Motherboard ASUS PRIME B360M-A",
+    "image":"https://m.media-amazon.com/images/S/aplus-media/sota/f9c7feae-e256-4aea-a97e-c78560104be3._CR142,0,1216,1216_PT0_SX300__.jpg",
+    "description": "Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.",
+    "price": 2400,
+    "category":"Motherboards"
+    
+  },
+  {
+    "id": 2,
+    "name": "Motherboard Gigabyte B660M Gaming X",
+    "image":"https://img.pccasegear.com/tr:n-gallery/images/B660M-GAMING-X-AX-DDR4-thumb.jpg",
+    "description": "Phasellus in felis. Donec semper sapien a libero. Nam dui.",
+    "price": 23000,
+    "category":"Motherboards"
+  },
+  {
+    "id": 3,
+    "name": "Motherboard MSI pro B660M-A Wi-Fi",
+    "image":"https://img.pccasegear.com/tr:n-gallery/images/1657846352-PRO-B660M-A-WIFI-DDR4-thb2.jpg",
+    "description": "Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.\n\nPraesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.\n\nMorbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.",
+    "price": 20000,
+    "category":"Motherboards"
+  },
+  {
+    "id": 4,
+    "name": "Memoria RAM Corsair 32 GB 2400Mhz DRR4 (2x16GB) ",
+    "image":"https://cdn.shopify.com/s/files/1/0097/7633/2855/products/CMK32GX4M2A2400C14_300x300.jpg?v=1585554693",
+    "description": "Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.\n\nPellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.",
+    "price": 14000,
+    "category":"Rams"
+  },
+  {
+    "id": 5,
+    "name": "Memoria RAM Kingston Fury 8GB DRR4 2666Mhz",
+    "image":"https://centrale.cl/wp-content/uploads/Memoria-RAM-8GB-2666Mhz-Kingston-Fury-Beast-RGB-DDR4-CL16_RNa7cgW-1-300x300.jpeg",
+    "description": "Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.\n\nMaecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.",
+    "price": 7000,
+    "category":"Rams"
+  },
+  {
+    "id": 6,
+    "name": "Memoria RAM Corsair 16GB 3000Mhz DRR4",
+    "image":"https://m.media-amazon.com/images/I/31aFGuUfWlL._SX300_SY300_QL70_ML2_.jpg",
+    "description": "Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.\n\nDuis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.",
+    "price": 8000,
+    "category":"Rams"
+  },
+  {
+    "id": 7,
+    "name": "Placa de video PNY RTX 4090 13GB GDRR6",
+    "image":"https://www.pny.com.tw/en/products-detail/upload/catalog_s/en_catalog_list_22j13_wtqzj5hjsw.jpg",
+    "description": "Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.\n\nMaecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.",
+    "price": 230000,
+    "category":"GPU Nvidia"
+  },
+  {
+    "id": 8,
+    "name": "Placa de video MSI GTX 1660 6GB GDRR6",
+    "image":"https://images.fravega.com/f300/2414e19e66827adade12e4ffe8e88d57.jpg.webp",
+    "description": "Fusce consequat. Nulla nisl. Nunc nisl.\n\nDuis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.\n\nIn hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.",
+    "price": 70000,
+    "category":"GPU Nvidia"
+  },
+  {
+    "id": 9,
+    "name": "Placa de video PNY RTX 3060 12GB GDRR6",
+    "image":"https://creatuscomputer.com/wp-content/uploads/2022/04/geforce-rtx-3060-12gb-01-500x500-1-300x300.jpg",
+    "description": "Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.\n\nQuisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.\n\nPhasellus in felis. Donec semper sapien a libero. Nam dui.",
+    "price": 140000,
+    "category":"GPU Nvidia"
+  },
+  {
+    "id": 10,
+    "name": "Placa de video Gigabyte AMD RX 6800 XT 16GB",
+    "image":"https://m.media-amazon.com/images/I/81L7-qPS0ZL._AC_SS300_.jpg",
+    "description": "Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.\n\nIn sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.",
+    "price": 190000,
+    "category":"GPU AMD"
+  },
+  {
+    "id": 11,
+    "name": "Placa de video XFX AMD RX 6900 XT 12GB",
+    "image":"https://m.media-amazon.com/images/I/61Br1R-ZbeL._AC_SS300_.jpg",
+    "description": "Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.",
+    "price": 240000,
+    "category":"GPU AMD"
+  },
+  {
+    "id": 12,
+    "name": "Placa de video MSI AMD RX 6650 XT 8GB",
+    "image":"https://img.pccasegear.com/tr:n-gallery/images/RX-6650XT-MECH-2X-8G-OC-thumb.jpg",
+    "description": "Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.\n\nFusce consequat. Nulla nisl. Nunc nisl.",
+    "price": 34236,
+    "category":"GPU AMD"
+  },
+  {
+    "id": 13,
+    "name": "Procesador Intel I7-12700K 4.90 GHz",
+    "image":"https://hardcorecomputacion.com.ar/wp-content/uploads/2021/11/191-intel-core-i7-12700k-50-ghz-300x300.jpg",
+    "description": "Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.\n\nQuisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.",
+    "price": 80000,
+    "category":"CPU Intel"
+  },
+  {
+    "id": 14,
+    "name": "Procesador Intel I5-12600K 4.30 GHz",
+    "image":"https://www.primeabgb.com/wp-content/uploads/2021/10/Core-i5-12400-1-300x300.jpg",
+    "description": "Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.\n\nFusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.",
+    "price": 60000,
+    "category":"CPU Intel"
+  },
+  {
+    "id": 15,
+    "name": "Procesador Intel I3-12100 3.30 GHz ",
+    "image":"https://www.primeabgb.com/wp-content/uploads/2022/01/Intel-Core-i3-12100F-12th-Gen-Alder-Lake-Quad-Core-Desktop-Processor-BX8071512100F-300x300.jpg",
+    "description": "Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.\n\nCras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.",
+    "price": 50500,
+    "category":"CPU Intel"
+  },
+  {
+    "id": 16,
+    "name": "Procesador Ryzen 7  5800X 3.8 GHz AM4",
+    "image":"https://s3techno.com/wp-content/uploads/2016/03/20614362-A_Ryzen7_5000_3DPIBWOF_RIGHT_ROW-removebg-preview-300x300.png",
+    "description": "Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.\n\nPellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.\n\nCum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+    "price": 80000,
+    "category":"CPU AMD"
+  },
+  {
+    "id": 17,
+    "name": "Procesador AMD Ryzen 5 2600X 4.25GHz AM4",
+    "image":"https://m.media-amazon.com/images/I/61YyzKD24dL._AC_SS300_.jpg",
+    "description": "Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.\n\nCras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.",
+    "price": 44000,
+    "category":"CPU AMD"
+  },
+  {
+    "id": 18,
+    "name": "Procesador AMD Ryzen 3 3600G 4.2GHz AM4",
+    "image":"https://pcandparts.com/wp-content/uploads/ryzen-3-g-cpu.jpg",
+    "description": "Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+    "price": 38000,
+    "category":"CPU AMD"
+  },
+  {
+    "id": 19,
+    "name": "Fuente Corsair VS450 400W reales +80 Bronce",
+    "image":"https://m.media-amazon.com/images/S/aplus-media/vc/b88095cb-e2bd-48ec-b4e5-c08ba5d67523._SR300,300_.jpg",
+    "description": "Phasellus in felis. Donec semper sapien a libero. Nam dui.\n\nProin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.",
+    "price": 30000,
+    "category":"Fuentes"
+  },
+  {
+    "id": 20,
+    "name": "Fuente Corsair CV750 750W reales +80 Silver",
+    "image":"https://compify.in/wp-content/uploads/2021/09/Untitled-1-12-min-1-300x300.jpg",
+    "description": "Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.\n\nFusce consequat. Nulla nisl. Nunc nisl.\n\nDuis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.",
+    "price": 60000,
+    "category":"Fuentes"
+  },
+  {
+    "id": 21,
+    "name": "Fuente MSI Modular 600w Reales +80 Gold",
+    "image":"https://www.bpctech.com.au/pub/media/catalog/product/cache/d0d9a294ae340507a524f9070b1165b5/m/p/mpg-a750gf_0.jpg",
+    "description": "Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.",
+    "price": 76000,
+    "category":"Fuentes"
+  },
+  {
+    "id": 22,
+    "name": "Auriculares HyperX cloud gaming 7.1 wired",
+    "image":"https://cdn.shopify.com/s/files/1/0561/8345/5901/products/hyperx_cloud_core_dts_6_accessories_300x.jpg?v=1652866080",
+    "description": "Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.",
+    "price": 14000,
+    "category":"Auriculares"
+  },
+  {
+    "id": 23,
+    "name": "Auriculares Logitech G733 wireless",
+    "image":"https://assets-prd.ignimgs.com/2022/11/07/g733-1667836952717.png?width=300",
+    "description": "Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.",
+    "price": 30000,
+    "category":"Auriculares"
+  },
+  {
+    "id": 24,
+    "name": "Auriculares HyperX Cloud 2 wired",
+    "image":"https://cdn.shopify.com/s/files/1/0024/9803/5810/products/720904-Product-0-I_da1e3e9b-902a-434f-8d12-df431e3decb1_300x300.jpg?v=1668466464",
+    "description": "In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.",
+    "price": 18000,
+    "category":"Auriculares"
+  },
+  {
+    "id": 25,
+    "name": "Disco duro Seagate Barracuda 2TB ",
+    "image":"https://images.fravega.com/f300/6fc10594b1ea9674b3fa1d1a1f3140b5.jpg.webp",
+    "description": "Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.\n\nInteger ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.\n\nNam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.",
+    "price": 13000,
+    "category":"Almacenamiento"
+  },
+  {
+    "id": 26,
+    "name": "Disco solido SSD Kingston A400 480GB",
+    "image":"https://pcandparts.com/wp-content/uploads/kingston-ssdnow-a400-series-sa400s37480g-480gb-sata-solid-state-drive-ssd.jpg",
+    "description": "Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.\n\nInteger ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.\n\nNam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.",
+    "price": 7000,
+    "category":"Almacenamiento"
+  },
+  {
+    "id": 27,
+    "name": "Disco solido M.2 Kingston KC2500 500 Gb",
+    "image":"https://tarreostorecl.vtexassets.com/arquivos/ids/155760-300-300?v=1755806200&width=300&height=300&aspect=true",
+    "description": "Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.\n\nInteger ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.\n\nNam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.",
+    "price": 17000,
+    "category":"Almacenamiento"
+  }
+  
+]
