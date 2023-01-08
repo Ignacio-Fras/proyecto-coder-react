@@ -100,7 +100,7 @@
     "id": 13,
     "name": "Procesador Intel I7-12700K 4.90 GHz",
     "image":"https://hardcorecomputacion.com.ar/wp-content/uploads/2021/11/191-intel-core-i7-12700k-50-ghz-300x300.jpg",
-    "description": "Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.\n\nQuisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.",
+    "description": "Frecuencia del CPU : 4.90 GHz.\n\n Nucleos : 8.",
     "price": 80000,
     "category":"CPU Intel"
   },
@@ -108,7 +108,7 @@
     "id": 14,
     "name": "Procesador Intel I5-12600K 4.30 GHz",
     "image":"https://www.primeabgb.com/wp-content/uploads/2021/10/Core-i5-12400-1-300x300.jpg",
-    "description": "Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.\n\nFusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.",
+    "description": "Frecuencia del CPU : 4.30 GHz.\n\n Nucleos : 6.",
     "price": 60000,
     "category":"CPU Intel"
   },
@@ -116,23 +116,22 @@
     "id": 15,
     "name": "Procesador Intel I3-12100 3.30 GHz ",
     "image":"https://www.primeabgb.com/wp-content/uploads/2022/01/Intel-Core-i3-12100F-12th-Gen-Alder-Lake-Quad-Core-Desktop-Processor-BX8071512100F-300x300.jpg",
-    "description": "Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.\n\nCras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.",
-    "price": 50500,
+    "description": "Frecuencia del CPU : 3.30 GHz.\n\n Nucleos : 4.",
     "category":"CPU Intel"
   },
   {
     "id": 16,
     "name": "Procesador Ryzen 7  5800X 3.8 GHz AM4",
     "image":"https://s3techno.com/wp-content/uploads/2016/03/20614362-A_Ryzen7_5000_3DPIBWOF_RIGHT_ROW-removebg-preview-300x300.png",
-    "description": "Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.\n\nPellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.\n\nCum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+    "description": "Frecuencia del CPU : 3.80 GHz.\n\n Nucleos : 8.",
     "price": 80000,
     "category":"CPU AMD"
   },
   {
     "id": 17,
-    "name": "Procesador AMD Ryzen 5 2600X 4.25GHz AM4",
+    "name": "Procesador AMD Ryzen 5 2600X 4.30GHz AM4",
     "image":"https://m.media-amazon.com/images/I/61YyzKD24dL._AC_SS300_.jpg",
-    "description": "Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.\n\nCras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.",
+    "description": "Frecuencia del CPU : 4.30 GHz.\n\n Nucleos : 6.",
     "price": 44000,
     "category":"CPU AMD"
   },
@@ -140,7 +139,7 @@
     "id": 18,
     "name": "Procesador AMD Ryzen 3 3600G 4.2GHz AM4",
     "image":"https://pcandparts.com/wp-content/uploads/ryzen-3-g-cpu.jpg",
-    "description": "Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+    "description": "Frecuencia del CPU : 4.20 GHz.\n\n Nucleos : 4.",
     "price": 38000,
     "category":"CPU AMD"
   },
@@ -148,7 +147,7 @@
     "id": 19,
     "name": "Fuente Corsair VS450 400W reales +80 Bronce",
     "image":"https://m.media-amazon.com/images/S/aplus-media/vc/b88095cb-e2bd-48ec-b4e5-c08ba5d67523._SR300,300_.jpg",
-    "description": "Phasellus in felis. Donec semper sapien a libero. Nam dui.\n\nProin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.",
+    "description": "Watts: 400W \n\n Watts Reales : 400w \n\n Certificado : 80 plus Bronce.",
     "price": 30000,
     "category":"Fuentes"
   },
@@ -156,7 +155,7 @@
     "id": 20,
     "name": "Fuente Corsair CV750 750W reales +80 Silver",
     "image":"https://compify.in/wp-content/uploads/2021/09/Untitled-1-12-min-1-300x300.jpg",
-    "description": "Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.\n\nFusce consequat. Nulla nisl. Nunc nisl.\n\nDuis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.",
+    "description": "Watts: 750W \n\n Watts Reales : 750w \n\n Certificado : 80 plus Silver.",
     "price": 60000,
     "category":"Fuentes"
   },
@@ -164,7 +163,7 @@
     "id": 21,
     "name": "Fuente MSI Modular 600w Reales +80 Gold",
     "image":"https://www.bpctech.com.au/pub/media/catalog/product/cache/d0d9a294ae340507a524f9070b1165b5/m/p/mpg-a750gf_0.jpg",
-    "description": "Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.",
+    "description": "Watts: 600W \n\n Watts Reales : 600w \n\n Certificado : 80 plus Gold.",
     "price": 76000,
     "category":"Fuentes"
   },
@@ -172,7 +171,7 @@
     "id": 22,
     "name": "Auriculares HyperX cloud gaming 7.1 wired",
     "image":"https://cdn.shopify.com/s/files/1/0561/8345/5901/products/hyperx_cloud_core_dts_6_accessories_300x.jpg?v=1652866080",
-    "description": "Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.",
+    "description": "Conexion : Cableado \n\n Tamaño del cable : 2 mts \n\n 7.1 : SI \n\n.",
     "price": 14000,
     "category":"Auriculares"
   },
@@ -180,7 +179,7 @@
     "id": 23,
     "name": "Auriculares Logitech G733 wireless",
     "image":"https://assets-prd.ignimgs.com/2022/11/07/g733-1667836952717.png?width=300",
-    "description": "Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.",
+    "description": "Conexion : Inalambrico \n\n Tamaño del cable : No tiene \n\n 7.1 : SI \n\n.",
     "price": 30000,
     "category":"Auriculares"
   },
@@ -188,7 +187,7 @@
     "id": 24,
     "name": "Auriculares HyperX Cloud 2 wired",
     "image":"https://cdn.shopify.com/s/files/1/0024/9803/5810/products/720904-Product-0-I_da1e3e9b-902a-434f-8d12-df431e3decb1_300x300.jpg?v=1668466464",
-    "description": "In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.",
+    "description": "Conexion : Cableado \n\n Tamaño del cable : 1.8 mts \n\n 7.1 : SI \n\n.",
     "price": 18000,
     "category":"Auriculares"
   },
@@ -196,7 +195,7 @@
     "id": 25,
     "name": "Disco duro Seagate Barracuda 2TB ",
     "image":"https://images.fravega.com/f300/6fc10594b1ea9674b3fa1d1a1f3140b5.jpg.webp",
-    "description": "Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.\n\nInteger ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.\n\nNam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.",
+    "description": "Espacio : 2TB \n\n RPM : 7200 \n\n Conexion SATA ",
     "price": 13000,
     "category":"Almacenamiento"
   },
@@ -204,7 +203,7 @@
     "id": 26,
     "name": "Disco solido SSD Kingston A400 480GB",
     "image":"https://pcandparts.com/wp-content/uploads/kingston-ssdnow-a400-series-sa400s37480g-480gb-sata-solid-state-drive-ssd.jpg",
-    "description": "Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.\n\nInteger ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.\n\nNam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.",
+    "description": "Disco de tipo solido \n\n Conexion SATA \n\n Almacenamiento : 480 GB",
     "price": 7000,
     "category":"Almacenamiento"
   },
@@ -212,7 +211,7 @@
     "id": 27,
     "name": "Disco solido M.2 Kingston KC2500 500 Gb",
     "image":"https://tarreostorecl.vtexassets.com/arquivos/ids/155760-300-300?v=1755806200&width=300&height=300&aspect=true",
-    "description": "Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.\n\nInteger ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.\n\nNam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.",
+    "description": "Almacenamiento : 500 GB \n\n Disco Solido de tipo M.2 \n\n",
     "price": 17000,
     "category":"Almacenamiento"
   }
