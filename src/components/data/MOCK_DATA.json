@@ -3,24 +3,24 @@
     "id": 1,
     "name": "Motherboard ASUS PRIME B360M-A",
     "image":"https://m.media-amazon.com/images/S/aplus-media/sota/f9c7feae-e256-4aea-a97e-c78560104be3._CR142,0,1216,1216_PT0_SX300__.jpg",
-    "description": "Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.",
+    "description": "Procesadores soportados : Intel® Socket 1151 for 8th Generation de procesadores Core™ i7/Core™ i5/Core™ i3/Pentium®/Celeron®",
     "price": 2400,
     "category":"Motherboards"
     
   },
   {
     "id": 2,
-    "name": "Motherboard Gigabyte B660M Gaming X",
+    "name": "Motherboard Gigabyte B660M Gaming X S1400",
     "image":"https://img.pccasegear.com/tr:n-gallery/images/B660M-GAMING-X-AX-DDR4-thumb.jpg",
-    "description": "Phasellus in felis. Donec semper sapien a libero. Nam dui.",
+    "description": "Procesadores soportados : Intel® Socket 1151 for 9th Generation de procesadores Core™ i7/Core™ i5/Core™ i3/Pentium®/Celeron®",
     "price": 23000,
     "category":"Motherboards"
   },
   {
     "id": 3,
-    "name": "Motherboard MSI pro B660M-A Wi-Fi",
+    "name": "Motherboard MSI pro B660M-A Wi-Fi S1200",
     "image":"https://img.pccasegear.com/tr:n-gallery/images/1657846352-PRO-B660M-A-WIFI-DDR4-thb2.jpg",
-    "description": "Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.\n\nPraesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.\n\nMorbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.",
+    "description": "Procesadores soportados : Intel® Socket 1151 for 12th Generation de procesadores Core™ i7/Core™ i5/Core™ i3/Pentium®/Celeron®",
     "price": 20000,
     "category":"Motherboards"
   },
@@ -28,7 +28,7 @@
     "id": 4,
     "name": "Memoria RAM Corsair 32 GB 2400Mhz DRR4 (2x16GB) ",
     "image":"https://cdn.shopify.com/s/files/1/0097/7633/2855/products/CMK32GX4M2A2400C14_300x300.jpg?v=1585554693",
-    "description": "Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.\n\nPellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.",
+    "description": "Frecuencia : 2400Mhz \n\n Latencia : 18 CL ",
     "price": 14000,
     "category":"Rams"
   },
@@ -36,7 +36,7 @@
     "id": 5,
     "name": "Memoria RAM Kingston Fury 8GB DRR4 2666Mhz",
     "image":"https://centrale.cl/wp-content/uploads/Memoria-RAM-8GB-2666Mhz-Kingston-Fury-Beast-RGB-DDR4-CL16_RNa7cgW-1-300x300.jpeg",
-    "description": "Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.\n\nMaecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.",
+    "description": "Frecuencia : 2666Mhz.\n\n Latencia : 16 CL.",
     "price": 7000,
     "category":"Rams"
   },
@@ -44,7 +44,7 @@
     "id": 6,
     "name": "Memoria RAM Corsair 16GB 3000Mhz DRR4",
     "image":"https://m.media-amazon.com/images/I/31aFGuUfWlL._SX300_SY300_QL70_ML2_.jpg",
-    "description": "Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.\n\nDuis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.",
+    "description": "Frecuencia : 3000Mhz \n\n Latencia : 18 CL ",
     "price": 8000,
     "category":"Rams"
   },
@@ -52,7 +52,7 @@
     "id": 7,
     "name": "Placa de video PNY RTX 4090 13GB GDRR6",
     "image":"https://www.pny.com.tw/en/products-detail/upload/catalog_s/en_catalog_list_22j13_wtqzj5hjsw.jpg",
-    "description": "Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.\n\nMaecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.",
+    "description": "Memoria VRAM : 13GB.\n\n GDRR6. \n\n Ray-Tracing DSLL : SI .",
     "price": 230000,
     "category":"GPU Nvidia"
   },
@@ -60,7 +60,7 @@
     "id": 8,
     "name": "Placa de video MSI GTX 1660 6GB GDRR6",
     "image":"https://images.fravega.com/f300/2414e19e66827adade12e4ffe8e88d57.jpg.webp",
-    "description": "Fusce consequat. Nulla nisl. Nunc nisl.\n\nDuis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.\n\nIn hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.",
+    "description": "Memoria VRAM : 6GB.\n\n GDRR6. \n\n Ray-Tracing DSLL : NO .",
     "price": 70000,
     "category":"GPU Nvidia"
   },
@@ -68,7 +68,7 @@
     "id": 9,
     "name": "Placa de video PNY RTX 3060 12GB GDRR6",
     "image":"https://creatuscomputer.com/wp-content/uploads/2022/04/geforce-rtx-3060-12gb-01-500x500-1-300x300.jpg",
-    "description": "Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.\n\nQuisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.\n\nPhasellus in felis. Donec semper sapien a libero. Nam dui.",
+    "description": "Memoria VRAM : 12GB.\n\n GDRR6. \n\n Ray-Tracing DSLL : SI .",
     "price": 140000,
     "category":"GPU Nvidia"
   },
@@ -76,7 +76,7 @@
     "id": 10,
     "name": "Placa de video Gigabyte AMD RX 6800 XT 16GB",
     "image":"https://m.media-amazon.com/images/I/81L7-qPS0ZL._AC_SS300_.jpg",
-    "description": "Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.\n\nIn sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.",
+    "description": "Memoria VRAM : 16GB.\n\n GDRR6. \n\n AMD FreeSync : SI.",
     "price": 190000,
     "category":"GPU AMD"
   },
@@ -84,7 +84,7 @@
     "id": 11,
     "name": "Placa de video XFX AMD RX 6900 XT 12GB",
     "image":"https://m.media-amazon.com/images/I/61Br1R-ZbeL._AC_SS300_.jpg",
-    "description": "Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.",
+    "description": "Memoria VRAM : 12GB.\n\n GDRR6. \n\n AMD FreeSync : SI.",
     "price": 240000,
     "category":"GPU AMD"
   },
@@ -92,7 +92,7 @@
     "id": 12,
     "name": "Placa de video MSI AMD RX 6650 XT 8GB",
     "image":"https://img.pccasegear.com/tr:n-gallery/images/RX-6650XT-MECH-2X-8G-OC-thumb.jpg",
-    "description": "Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.\n\nFusce consequat. Nulla nisl. Nunc nisl.",
+    "description": "Memoria VRAM : 8GB.\n\n GDRR6. \n\n AMD FreeSync : SI.",
     "price": 34236,
     "category":"GPU AMD"
   },

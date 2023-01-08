@@ -20,7 +20,7 @@ export const pedirDatos = () => {
                 error: 'No se encontro ese producto'
               })
             }
-          },500 )
+          },1000 )
         })
 
       }
