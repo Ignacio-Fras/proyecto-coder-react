@@ -6,6 +6,7 @@
 }
 .nombre{
     background-color: rgb(93, 133, 241);
+    color: white;
     padding: 10px;
     border-radius: 10px;
     margin-bottom: 2rem;

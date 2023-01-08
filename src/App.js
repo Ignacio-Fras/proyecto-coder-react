@@ -4,7 +4,6 @@ import { Footer } from './components/Footer/footer';
 import { Productos } from './components/Productos/Productos';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import DetallesItem from './components/DetallesItem/DetallesItem';
-import Carrousel from './components/Carrousel/Carrousel';
 import { PaginaInicio } from './components/body/paginaInicio';
 
 
