@@ -11,7 +11,17 @@
     display: flex;
     justify-content: center;
 }
+.footer a{
+    color: white;
+}
 .textFooter{
     color: white;
+    padding: 1rem;
     text-decoration: none;
+    font-size: 30px;
+}
+.textFooter:hover{
+    color: white;
+    border-radius: 10px;
+    background-color: rgb(81, 11, 211);
 }

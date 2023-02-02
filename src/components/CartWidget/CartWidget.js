@@ -1,10 +1,17 @@
+import { FaShoppingCart } from 'react-icons/fa'
+import { Link } from 'react-router-dom'
 import './CartWidget.css'
+import { CartContext } from '../../context/cart-context'
+import { useContext } from 'react'
 
-export const CartWidget = ({children}) =>{
-    return(
-        <div>
-            <img className="img" alt="Carrito" src="https://cdn-icons-png.flaticon.com/512/1170/1170678.png"></img>
-            <span className="valor">5</span>
-        </div>
+export const CartWidget = () => {
+
+    const { totalCarrito} = useContext(CartContext)
+
+    return (
+        <Link to="/cart" className='img valor'>
+            <FaShoppingCart />
+            <span>{totalCarrito()}</span>
+        </Link>
     )
 }

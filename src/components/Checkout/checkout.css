@@ -1,0 +1,38 @@
+.checkout{
+    background-color: rgb(204, 205, 247);
+    text-align: center;
+    padding: 1rem;
+}
+.finish{
+    background-color: rgb(183, 184, 245);
+    text-align: center;
+    padding: 1rem;
+}
+.finish h3{
+    background-color: rgb(64, 152, 235);
+    display: inline-block;
+    padding: 1rem;
+    margin: 1rem;
+}
+.finish h2{
+    background-color: rgb(64, 152, 235);
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    margin: 1rem;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    margin: 1rem;
+}
+.button{
+    padding: 10px;
+    background-color: rgb(154, 171, 250);
+    border-radius: 10px;
+}
+.button:hover{
+    background-color: rgb(199, 205, 238);
+}

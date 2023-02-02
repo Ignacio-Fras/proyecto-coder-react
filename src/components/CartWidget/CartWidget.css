@@ -1,5 +1,5 @@
 .valor{
-    background-color: rgb(141, 142, 194);
+    background-color: rgb(93, 133, 241);
     margin-left: 5px;
     border-radius: 20px;
     padding: 6px;
@@ -8,5 +8,8 @@
 .img{
     border-radius: 5px;
     margin-left: 15px;
-    width: 30px;
+    font-size: 20px;
+}
+.img:hover{
+    background-color: rgb(52, 41, 209);
 }

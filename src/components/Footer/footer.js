@@ -1,18 +1,20 @@
 import './footer.css'
-import { Link } from 'react-router-dom'
+import { FaTwitter } from 'react-icons/fa'
+import { FaFacebook } from 'react-icons/fa'
+import { FaInstagram } from 'react-icons/fa'
 
 export const Footer = () =>{
     
     return(
         <div className="footer">
-            <li>
-                <Link to="/" className="textFooter">Facebook</Link>
+            <li className="textFooter">
+                <a href="https://twitter.com/home"><FaTwitter/></a>
             </li>
-            <li>
-                <Link to="/" className="textFooter">Twitter</Link>
+            <li className="textFooter">
+                <a href="https://www.facebook.com"><FaFacebook/></a>
             </li>
-            <li>
-                <Link to="/" className="textFooter">Instagram</Link>
+            <li className="textFooter">
+                <a href="https://www.instagram.com"><FaInstagram/></a>
             </li>
         </div>
     )

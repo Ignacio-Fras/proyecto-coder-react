@@ -9,28 +9,55 @@
 }
 
 .lista{
-    background-color: rgb(77, 96, 204);
+    background-color: rgb(74, 98, 236);
     display: flex;
     list-style: none;
+    align-items: center;
     text-decoration: none;
     color: white;
-    padding: 1rem;
     margin: 1rem;
+    padding: 1.5rem;
 }
 .lista a{
+    background-color: rgb(126, 124, 248);
     text-decoration: none;
+    border-radius: 10px;
     color: white;
     padding: 1rem;
-    margin: 1rem;
+    margin: 2rem;
 
 }
-.BtnNav:hover{
-    background-color: rgb(28, 59, 233);
-    padding: 2px;
+.lista a:hover{
+    background-color: rgb(81, 11, 211);
     border-radius: 10px;
 }
 .Titulo{
     font-size: 50px;
     color: white;
     text-decoration: none;
+}
+.navbar-2{
+    display: flex;
+    align-items: center;
+}
+.btn{
+    background-color: rgb(126, 124, 248);
+    padding: 15px;
+    margin: 1rem;
+    border-radius: 10px;
+}
+.btn:hover{
+    background-color: rgb(81, 11, 211);
+}
+.sesion{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    background-color: rgb(55, 85, 253);
+    padding: 1rem;
+    color: white;
+}
+.sesion button {
+    background-color: rgb(211, 216, 243);
+    border-radius: 10px;
 }
