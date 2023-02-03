@@ -1,13 +1,13 @@
 import { useState } from 'react'
 import { Navigate } from 'react-router-dom'
 import { useLoginContext } from '../../context/LoginContext'
-import './login.css'
+import './register.css'
 import { Link } from 'react-router-dom'
 
 
-export const Login = () =>{
+export const Register = () =>{
 
-    const {intentarLogin, user, loading, google} = useLoginContext()
+    const { user, register } = useLoginContext()
 
     const [values, setValues] =useState({
         email: '',
@@ -22,7 +22,7 @@ export const Login = () =>{
     }
     const Submit = (e) => {
         e.preventDefault()
-        intentarLogin(values)
+        register(values)
     }
     
     if(user.logueado === true){
@@ -33,7 +33,7 @@ export const Login = () =>{
     return(
     <div className="loginInicio">
         <div className="login">
-            <h2>Bienvenido a Pegasus Gaming!</h2>
+            <h2>Registro</h2>
             <hr/>
             <form onSubmit={Submit}>
                 <input 
@@ -57,15 +57,13 @@ export const Login = () =>{
 
                 </input>
                 <br/>
-                <div className="btnLogin">
-                    <button className="btn btn-primary" disabled={loading}>{loading ? 'un momento...' : 'Ingresar'}</button>
-                </div>
+                <button className="btn btn-primary"> Ingresar</button>
                 {user.error && <p className="error">{user.error}</p>}
             </form>
-            <br/>
-            <button className="btn btn-primary" onClick={google}>Ingresar con Google</button>
-            <Link to="/register" className="btn btn-primary">No tenes cuenta? Registrate!</Link>
+            <Link to="/login" className="btn btn-primary">Ya estoy registrado </Link>
         </div>
     </div>
     )
 }
+
+export default Register;

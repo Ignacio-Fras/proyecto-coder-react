@@ -3,6 +3,7 @@ import { CartContext } from "../../context/cart-context"
 import { FaTrash } from "react-icons/fa"
 import { Link } from "react-router-dom"
 import './cart.css'
+import { Productos } from "../Productos/Productos"
 
 export const Cart = () => {
 
@@ -14,11 +15,19 @@ export const Cart = () => {
             <div className="container my-5">
                 <h2>Tu carrito está vacío</h2>
                 <br/>
-                <Link to="/" className="btn btn-primary">Volver</Link>
+                <h2>Es tu momento de llenarlo!</h2>
+                <hr/>
+                <Link to="/productos" className="btn btn-primary">Ir a productos</Link>
+                <br/>
+                <h2>Recorda que para comprar productos tenes que estar logueado en Pegasus gaming!</h2>
+                <br/><br/>
+                <h3>Si no lo estas aun, podes hacerlo desde el sector login o te dejamos un link a continuacion</h3>
+                <br/><br/>
+                <Link to="/register" className="btn btn-primary">Unite a Pegasus!</Link>
             </div>
         )
     }
-     
+    
     return (
         <div className="container my-5">
             <h2>Tu compra</h2>

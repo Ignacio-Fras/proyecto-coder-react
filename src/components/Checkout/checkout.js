@@ -6,10 +6,13 @@ import { db } from "../../firebase/config"
 import { Link } from "react-router-dom"
 import Swal from "sweetalert2"
 import './checkout.css'
+import { useLoginContext } from "../../context/LoginContext"
 
 export const Checkout = () => {
 
     const { cart, valorTotal, carritoVacio } = useCartContext()
+
+    const {user} = useLoginContext()
 
     const [ordenId, setOrdenId] = useState(null)
 
@@ -105,34 +108,38 @@ export const Checkout = () => {
     if (cart.length === 0){
         return <Navigate to="/"></Navigate>
     }
-
+    
     return(
         <div className="checkout">
-            <div className="CheckText">
-                <h2>¡Estas a un paso de terminar la compra!</h2>
-                <p>Te solicitamos unos datos personales para el envio de tus productos. </p>
+        {
+            !user.logueado ? <Navigate to="/login"/>
+            : <> <div className="CheckText">
+            <h2>¡Estas a un paso de terminar la compra!</h2>
+            <p>Te solicitamos unos datos personales para el envio de tus productos. </p>
             </div>
-                 <form onSubmit={Submit} className="form">
-                    <input className="form-control my-3"
-                       onChange={InputChange}
-                       type="text"
-                       name="nombre"
-                       value={values.nombre}
-                       placeholder="Nombre y Apellido"></input>
+               <form onSubmit={Submit} className="form">
+                  <input className="form-control my-3"
+                   onChange={InputChange}
+                   type="text"
+                   name="nombre"
+                   value={values.nombre}
+                   placeholder="Nombre y Apellido"></input>
 
-                    <input className="form-control my-3"
-                       onChange={InputChange}
-                       type="email"
-                       name="email"
-                       value={values.email}
-                       placeholder="email"></input>
-                    <input className="form-control my-3"
-                       onChange={InputChange}
-                       type="text"
-                       name="direccion"
-                       value={values.direccion}
-                       placeholder="Direccion"></input>
-                </form>
-                    <button onClick={Submit} className="button">Enviar</button>
+                  <input className="form-control my-3"
+                   onChange={InputChange}
+                   type="email"
+                   name="email"
+                   value={values.email}
+                   placeholder="email"></input>
+                  <input className="form-control my-3"
+                   onChange={InputChange}
+                   type="text"
+                   name="direccion"
+                   value={values.direccion}
+                   placeholder="Direccion"></input>
+               </form>
+                <button onClick={Submit} className="button">Enviar</button> 
+                </>
+        }
         </div>
     )}

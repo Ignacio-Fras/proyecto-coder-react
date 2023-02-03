@@ -3,7 +3,7 @@
 }
 .cart{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     margin: 3rem;
 }
@@ -17,6 +17,7 @@
 }
 .btnCart:hover{
     background-color: rgb(119, 147, 238);
+    color: black;
 }
 .btnTrash{
     background-color: rgb(241, 71, 71);

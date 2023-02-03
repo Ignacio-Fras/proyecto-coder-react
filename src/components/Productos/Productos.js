@@ -5,7 +5,6 @@ import { useParams } from "react-router-dom";
 import { collection, getDocs, query, where } from "firebase/firestore";
 import { db } from "../../firebase/config";
 import { Spinner } from "react-bootstrap";
-import { Navigate } from "react-router-dom";
 
 export const Productos = () => {
 
@@ -42,9 +41,7 @@ export const Productos = () => {
   return (
     <div>
       {loading ? (
-        <Spinner animation="border" role="status" className="spinner">
-        <span className="visually-hidden">Loading...</span>
-      </Spinner>
+        <Spinner/>
       ) : (
         <ListaProductos productos={productos} />
       )}

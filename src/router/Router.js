@@ -8,6 +8,7 @@ import {PreguntasFrecuentes} from '../components/PreguntasFrecuentes/PreguntasFr
 import { Cart } from '../components/Cart/Cart';
 import { Login } from '../components/Login/login';
 import { Checkout } from '../components/Checkout/checkout';
+import { Register } from '../components/Register/Register';
 
 export const Router = () => {
 
@@ -19,9 +20,11 @@ export const Router = () => {
          <Routes>
            <Route path="/" element={<PaginaInicio/>}> </Route>
             <Route path="/Productos/:categoryId" element={<Productos/>}> </Route>
+            <Route path="/Productos" element={<Productos/>}></Route>
             <Route path="/detail/:itemId" element={<DetallesItem/>}></Route>
             <Route path="/Cart" element={<Cart/>}></Route>
             <Route path ="/login" element={<Login/>}></Route>
+            <Route path="/register" element={<Register/>}></Route>
             <Route path="/checkout" element={<Checkout/>}></Route>  
             <Route path="/PreguntasFrecuentes" element={<PreguntasFrecuentes/>}></Route>
           </Routes>

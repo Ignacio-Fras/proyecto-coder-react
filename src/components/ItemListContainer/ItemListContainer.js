@@ -23,6 +23,10 @@ export function ItemListContainer() {
           <Offcanvas.Body>
             <ul>
             <li className="box">
+              <Link to="/Productos">Todos los productos</Link>
+            </li>
+            <br/>
+            <li className="box">
                 <Link to="/Productos/Motherboards" >Motherboards</Link>
             </li>
             <br/>

@@ -1,8 +1,8 @@
 .footer{
     background-color: rgb(93, 133, 241);
-    padding: 1rem;
     color: white;
     display: flex;
+    align-items: center;
     flex-direction: row;
     justify-content: space-evenly;
 }
@@ -24,4 +24,19 @@
     color: white;
     border-radius: 10px;
     background-color: rgb(81, 11, 211);
+}
+.footerNav{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 5px;
+}
+.btnFooter{
+    padding: 2px;
+    text-decoration: none;
+    margin: 5px;
+}
+.btnFooter:hover{
+    background-color: rgb(91, 101, 241);
+    border-radius: 10px;
 }

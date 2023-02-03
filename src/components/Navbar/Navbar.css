@@ -1,8 +1,8 @@
 .nav{
     background-color: rgb(93, 133, 241);
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
     color: rgb(0, 0, 0);
     padding: 1rem;
@@ -16,7 +16,6 @@
     text-decoration: none;
     color: white;
     margin: 1rem;
-    padding: 1.5rem;
 }
 .lista a{
     background-color: rgb(126, 124, 248);
@@ -32,7 +31,7 @@
     border-radius: 10px;
 }
 .Titulo{
-    font-size: 50px;
+    font-size: 40px;
     color: white;
     text-decoration: none;
 }
@@ -60,4 +59,18 @@
 .sesion button {
     background-color: rgb(211, 216, 243);
     border-radius: 10px;
+}
+.loginNav{
+    color: white;
+    display:flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+.navBtn{
+    background-color: rgb(143, 170, 245);
+    padding: 5px;
+    border-radius: 10px;
+}
+.navBtn:hover{
+    background-color: rgb(74, 98, 236);
 }
