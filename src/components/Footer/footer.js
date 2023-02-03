@@ -14,6 +14,7 @@ export const Footer = () =>{
                 <br/>
                 <p>Pegasus Gaming 2023 <br/> Todos los derechos reservados</p>
             </div>
+            <div className="redes">
             <li className="textFooter">
                 <a href="https://twitter.com/home"><FaTwitter/></a>
             </li>
@@ -23,6 +24,7 @@ export const Footer = () =>{
             <li className="textFooter">
                 <a href="https://www.instagram.com"><FaInstagram/></a>
             </li>
+            </div>
         </div>
     )
 }

@@ -95,12 +95,17 @@ export const Checkout = () => {
         if(ordenId) {
             return(
                 <div className="finish">
-                    <h2>¡Felicitaciones! Tu compra se realizo con exito.</h2>
-                    <h3>Tu orden de compra es : {ordenId}</h3>
-                    <p>Toda la informacion de la compra debe llegarte a tu <b>Email</b> registrado</p>
-                    <h2>No dudes en consultarnos en nuestras redes sociales!</h2>
-
-                    <Link to="/" className="button">Volver al Inicio</Link>
+                    <div className="finishText">
+                       <h2><b>¡Felicitaciones! Tu compra se realizo con exito.</b></h2>
+                       <br/><hr/>
+                       <h2>Tu orden de compra es : {ordenId}</h2>
+                       <br/>
+                       <p>Toda la informacion de la compra debe llegarte a tu <b>Email</b> registrado</p>
+                       <br/>
+                       <p>No dudes en consultarnos en nuestras redes sociales!</p>
+                       <br/>
+                       <Link to="/" className="button">Volver al Inicio</Link>
+                    </div>
                 </div>
             )
         }

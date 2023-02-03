@@ -40,3 +40,6 @@
     background-color: rgb(91, 101, 241);
     border-radius: 10px;
 }
+.redes{
+    display: flex;
+}

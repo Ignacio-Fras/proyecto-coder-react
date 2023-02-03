@@ -26,3 +26,16 @@
 .btnTrash:hover{
     background-color:rgb(241, 13, 13);
 }
+.carritoVacio{
+    background-color: rgb(184, 195, 241);
+    margin: 4rem;
+    padding: 2rem;
+}
+.carritoContenido{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.divCart{
+    padding: 6rem;
+}
