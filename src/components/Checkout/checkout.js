@@ -32,15 +32,27 @@ export const Checkout = () => {
         e.preventDefault()
 
          if(values.nombre.length < 2){
-             alert("El nombre no es valido")
+            Swal.fire(
+                'Cuidado!',
+                'El nombre utilizado no es valido.',
+                'warning'
+              )
              return
          }
-         if(values.direccion.length < 2){
-             alert("La direccion no es valido")
+         if(values.direccion.length < 4){
+            Swal.fire(
+                'Cuidado!',
+                'La direccion utilizada no es valida.',
+                'warning'
+              )
              return
          }
          if(values.email.length < 5){
-             alert("El email no es valido")
+            Swal.fire(
+                'Cuidado!',
+                'El mail utilizado no es correcto',
+                'warning'
+              )
              return
          }
         const pedido = {
