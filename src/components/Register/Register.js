@@ -10,6 +10,7 @@ export const Register = () =>{
     const { user, register } = useLoginContext()
 
     const [values, setValues] =useState({
+        
         email: '',
         password:''
     })

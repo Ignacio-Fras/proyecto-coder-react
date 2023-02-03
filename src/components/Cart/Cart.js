@@ -3,7 +3,6 @@ import { CartContext } from "../../context/cart-context"
 import { FaTrash } from "react-icons/fa"
 import { Link } from "react-router-dom"
 import './cart.css'
-import { Productos } from "../Productos/Productos"
 
 export const Cart = () => {
 
